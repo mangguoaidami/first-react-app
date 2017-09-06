@@ -5,4 +5,4 @@ import ReactDom from 'react-dom';
 import App from './component/App';
 
 const root = document.getElementById('app-container');
-ReactDom.render(<App/>, root);
+ReactDom.render(<App text="this is a prop values"/>, root);
